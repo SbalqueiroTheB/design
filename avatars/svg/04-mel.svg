@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="av-mel-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D8A150"/><stop offset="1" stop-color="#87521A"/>
+    </linearGradient>
+    <clipPath id="av-mel-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#av-mel-card)">
+    <rect width="100" height="100" fill="url(#av-mel-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    <g transform="translate(50 100) scale(1.1) translate(-50 -100)">
+  <path d="M12 100 V91 Q12 72 36 68 Q50 76 64 68 Q88 72 88 91 V100 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M40 69 Q50 79 60 69" fill="none" stroke="#87521A" stroke-width="2" stroke-opacity=".35" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="43" y="56" width="14" height="15" rx="4" fill="#FFFFFF"/>
+  <path d="M43 60 Q50 67 57 60 V65.5 Q50 70 43 65.5 Z" fill="#87521A" fill-opacity=".22"/>
+  <circle cx="34.5" cy="48" r="4" fill="#FFFFFF"/><circle cx="65.5" cy="48" r="4" fill="#FFFFFF"/>
+  <ellipse cx="50" cy="45" rx="15.5" ry="18" fill="#FFFFFF"/><path d="M34.6 43 C33.5 30 41 27 50 27 C59 27 66.5 30 65.4 43 C63 36.5 57 34 50 34 C43 34 37 36.5 34.6 43 Z" fill="#87521A"/><path d="M40 31 C43 20 58 17 64 25 C60 23 55 24 52 28 Z" fill="#87521A"/><circle cx="44" cy="45" r="1.7" fill="#87521A"/><circle cx="56" cy="45" r="1.7" fill="#87521A"/><path d="M40.5 40.5 Q44 39 47 40.3 M53 40.3 Q56 39 59.5 40.5" fill="none" stroke="#87521A" stroke-width="1.6" stroke-opacity=".8" stroke-linecap="round" stroke-linejoin="round"/><path d="M40.5 56 Q45 51 50 53.5 Q55 51 59.5 56 Q57 60 54 57.5 Q50 56 46 57.5 Q43 60 40.5 56 Z" fill="#87521A"/></g>
+  </g>
+</svg>

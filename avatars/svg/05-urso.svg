@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="av-urso-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A86A3E"/><stop offset="1" stop-color="#4E2C16"/>
+    </linearGradient>
+    <clipPath id="av-urso-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#av-urso-card)">
+    <rect width="100" height="100" fill="url(#av-urso-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    <g transform="translate(50 100) scale(1.1) translate(-50 -100)">
+  <path d="M12 100 V91 Q12 72 36 68 Q50 76 64 68 Q88 72 88 91 V100 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M40 69 Q50 79 60 69" fill="none" stroke="#4E2C16" stroke-width="2" stroke-opacity=".35" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="43" y="56" width="14" height="15" rx="4" fill="#FFFFFF"/>
+  <path d="M43 60 Q50 67 57 60 V65.5 Q50 70 43 65.5 Z" fill="#4E2C16" fill-opacity=".22"/>
+  <circle cx="34.5" cy="48" r="4" fill="#FFFFFF"/><circle cx="65.5" cy="48" r="4" fill="#FFFFFF"/>
+  <ellipse cx="50" cy="45" rx="15.5" ry="18" fill="#FFFFFF"/><path d="M34.8 44 C34.5 64 41 82 50 86 C59 82 65.5 64 65.2 44 C63 52 60.5 56.5 56 57.5 Q50 60.5 44 57.5 C39.5 56.5 37 52 34.8 44 Z" fill="#4E2C16"/><path d="M42.5 55.5 Q46 52.5 50 54 Q54 52.5 57.5 55.5 Q54 57 50 55.6 Q46 57 42.5 55.5 Z" fill="#4E2C16"/><path d="M46 70 Q50 76 54 70 M44 64 Q50 71 56 64" fill="none" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity=".25" stroke-linecap="round" stroke-linejoin="round"/><circle cx="44" cy="45" r="1.7" fill="#4E2C16"/><circle cx="56" cy="45" r="1.7" fill="#4E2C16"/><circle cx="50" cy="18.5" r="4.5" fill="#4E2C16"/><path d="M33.5 42 C33 26 41 21.5 50 21.5 C59 21.5 67 26 66.5 42 Z" fill="#4E2C16"/><rect x="33" y="36" width="34" height="7" rx="2" fill="#4E2C16"/><line x1="37" y1="36.5" x2="37" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="41" y1="36.5" x2="41" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="45" y1="36.5" x2="45" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="49" y1="36.5" x2="49" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="53" y1="36.5" x2="53" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="57" y1="36.5" x2="57" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/><line x1="61" y1="36.5" x2="61" y2="42" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="1"/></g>
+  </g>
+</svg>
