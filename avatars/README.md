@@ -1,31 +1,33 @@
 # Avatares padrão bear2me
 
 8 avatares para quem ainda **não cadastrou foto**. Ninguém é punido por não ter
-foto: em vez do quadrado cinza, cada pessoa ganha um personagem com a cara do app.
+foto: em vez do quadrado cinza, cada pessoa ganha o urso do bear2me.
 
-Mesma linguagem dos ícones de categoria (gradiente vertical, chamas translúcidas,
-duotone branco, **cantos retos**), mas com a **paleta quente da logo**, para não
-confundir avatar com categoria.
+A composição é a da própria logo: **urso escuro, focinho branco, chamas escuras
+atrás e gradiente quente**. Também segue as regras dos ícones de categoria
+(cantos retos, chamas translúcidas, detalhes em branco translúcido), mas com a
+paleta quente da logo, para não confundir avatar com categoria.
 
-| # | Personagem | Topo | Base |
-|---|------------|------|------|
-| 1 | Careca + barba cheia | `#EE5A45` | `#9A1E1E` |
-| 2 | Boné + barba curta | `#F79545` | `#B84A17` |
-| 3 | Cabelo curto + óculos + barba cheia | `#F4B846` | `#B26A0C` |
-| 4 | Topete + bigodão | `#D8A150` | `#87521A` |
-| 5 | Gorro + barba longa | `#A86A3E` | `#4E2C16` |
-| 6 | Entradas + cavanhaque + óculos redondos | `#CF6444` | `#6E2A1C` |
-| 7 | Cabelo cacheado + barba curta | `#B8475A` | `#5A1A29` |
-| 8 | Boné pra trás + barba cheia | `#7A6A60` | `#2E2724` |
+| # | Pose | Topo | Base |
+|---|------|------|------|
+| 1 | De frente | `#EE5A45` | `#9A1E1E` |
+| 2 | Acenando | `#F79545` | `#B84A17` |
+| 3 | Piscando | `#F4B846` | `#B26A0C` |
+| 4 | Curioso (cabeça inclinada) | `#D8A150` | `#87521A` |
+| 5 | Dormindo | `#A86A3E` | `#4E2C16` |
+| 6 | Olhando pro lado | `#CF6444` | `#6E2A1C` |
+| 7 | Feliz | `#B8475A` | `#5A1A29` |
+| 8 | Surpreso | `#7A6A60` | `#2E2724` |
 
-## Decisões de inclusão
+O urso é sempre um tom abaixo da cor da base do fundo, para destacar sem brigar.
 
-- **Mesmo corpo em todos.** Variam só barba, cabelo, boné/gorro e óculos. Um sorteio
-  nunca vai "dizer" que alguém é gordo, magro ou forte.
-- **Sem tom de pele.** A figura é branca (duotone), então o sorteio também não
-  atribui etnia a ninguém.
-- **Claramente ilustração.** Ninguém confunde com a foto real da pessoa.
-- **Base livre para o nome.** O personagem fica acima da faixa do nome que o app
+## Por que ursos e não pessoas
+
+- **Neutro.** O avatar representa a comunidade, não a pessoa. Ninguém recebe
+  corpo, rosto, idade ou etnia por sorteio.
+- **Claramente um mascote.** Ninguém confunde com a foto real do usuário.
+- **Mesmo urso em todos.** Mudam só a pose e a expressão, sem acessório humano.
+- **Base livre para o nome.** O urso fica acima da faixa do nome que o app
   sobrepõe no card.
 
 ## Como o app escolhe o avatar (fixo pelo ID)
