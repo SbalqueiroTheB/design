@@ -1,10 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" shape-rendering="geometricPrecision">
-  <rect width="100" height="100" fill="#D9A400"/>
-  <circle cx="50" cy="52" r="19" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <circle cx="50" cy="52" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
-  <path d="M16 20 V36 H28 V20" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
-  <line x1="22" y1="20" x2="22" y2="36" stroke="#FFFFFF" stroke-width="3.5"/>
-  <rect x="19.5" y="34" width="5" height="50" fill="#FFFFFF"/>
-  <path d="M75 18 L84 28 V52 H75 Z" fill="#FFFFFF"/>
-  <rect x="75" y="50" width="5" height="34" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="comer-e-beber-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC23A"/><stop offset="1" stop-color="#D98200"/>
+    </linearGradient>
+    <clipPath id="comer-e-beber-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#comer-e-beber-card)">
+    <rect width="100" height="100" fill="url(#comer-e-beber-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <circle cx="50" cy="54" r="23" fill="#FFFFFF" fill-opacity=".5"/>
+  <circle cx="50" cy="54" r="15" fill="#FFFFFF"/>
+  <path d="M34 42 A20 20 0 0 1 44 35.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 16 V29 Q12 36 18 36 Q24 36 24 29 V16" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18" y1="16" x2="18" y2="31" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18" y1="36" x2="18" y2="84" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79 14 C86 18 89 30 88 46 H79 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="83.5" y1="46" x2="83.5" y2="84" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

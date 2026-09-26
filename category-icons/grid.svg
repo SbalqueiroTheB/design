@@ -1,83 +1,211 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="1296" viewBox="0 0 512 324">
-<rect width="512" height="324" fill="#EDEDED"/>
-<g transform="translate(32 32)"><rect width="100" height="100" fill="#E40303"/>
-  <path d="M26 24 H74 L50 50 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <path d="M34 31 H66 L50 48 Z" fill="#FFFFFF"/>
-  <line x1="50" y1="50" x2="50" y2="74" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <rect x="35" y="72" width="30" height="5" fill="#FFFFFF"/>
-  <line x1="57" y1="38" x2="71" y2="14" stroke="#FFFFFF" stroke-width="3.5"/>
-  <circle cx="69" cy="17" r="4.5" fill="#FFFFFF"/></g>
-<text x="82" y="147" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Bares</text>
-<g transform="translate(148 32)"><rect width="100" height="100" fill="#FF8C00"/>
-  <defs><clipPath id="ball"><circle cx="50" cy="56" r="24"/></clipPath></defs>
-  <line x1="50" y1="12" x2="50" y2="32" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <circle cx="50" cy="56" r="24" fill="#FFFFFF"/>
-  <g clip-path="url(#ball)" stroke="#FF8C00" stroke-width="2.6">
-    <line x1="20" y1="44" x2="80" y2="44"/><line x1="20" y1="56" x2="80" y2="56"/>
-    <line x1="20" y1="68" x2="80" y2="68"/>
-    <line x1="38" y1="28" x2="38" y2="84"/><line x1="50" y1="28" x2="50" y2="84"/>
-    <line x1="62" y1="28" x2="62" y2="84"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1992" height="1240" viewBox="0 0 498 310">
+<rect width="498" height="310" fill="#F5F2ED"/>
+<g transform="translate(28 28)">
+  <defs>
+    <linearGradient id="bares-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2493F"/><stop offset="1" stop-color="#B5121B"/>
+    </linearGradient>
+    <clipPath id="bares-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#bares-card)">
+    <rect width="100" height="100" fill="url(#bares-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <line x1="55" y1="40" x2="68" y2="12" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33 33 H67 L50 51 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <circle cx="44" cy="37" r="1.6" fill="#FFFFFF"/><circle cx="52" cy="42" r="1.2" fill="#FFFFFF"/>
+  <circle cx="48" cy="46" r="1" fill="#FFFFFF"/>
+  <path d="M24 27 H76 L50 55 Z" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="50" y1="55" x2="50" y2="76" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M36 79 Q50 73 64 79" fill="none" stroke="#FFFFFF" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="74" cy="27" r="9.5" fill="#FFFFFF"/>
+  <circle cx="74" cy="27" r="6.5" fill="none" stroke="#B5121B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M74 20.5 V33.5 M68.4 23.8 L79.6 30.2 M68.4 30.2 L79.6 23.8" fill="none" stroke="#B5121B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g>
+<text x="78" y="142" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Bares</text>
+<g transform="translate(142 28)">
+  <defs>
+    <linearGradient id="discoteca-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFA23D"/><stop offset="1" stop-color="#E3561A"/>
+    </linearGradient>
+    <clipPath id="discoteca-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#discoteca-card)">
+    <rect width="100" height="100" fill="url(#discoteca-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <defs><clipPath id="discoteca-ball"><circle cx="50" cy="56" r="24"/></clipPath></defs>
+  <line x1="50" y1="8" x2="50" y2="28" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="45.5" y="27" width="9" height="5" rx="1.5" fill="#FFFFFF"/>
+  <circle cx="50" cy="56" r="24" fill="#FFFFFF" fill-opacity=".5"/>
+  <g clip-path="url(#discoteca-ball)">
+    <circle cx="40" cy="46" r="21" fill="#FFFFFF"/>
+    <g fill="none" stroke="#E3561A" stroke-opacity=".75" stroke-width="1.1"><line x1="20" y1="38" x2="80" y2="38"/><line x1="20" y1="47" x2="80" y2="47"/><line x1="20" y1="56" x2="80" y2="56"/><line x1="20" y1="65" x2="80" y2="65"/><line x1="20" y1="74" x2="80" y2="74"/><ellipse cx="50" cy="56" rx="12" ry="24"/><ellipse cx="50" cy="56" rx="21" ry="24"/><line x1="50" y1="30" x2="50" y2="82"/></g>
   </g>
-  <path d="M80 18 L82 24 L88 26 L82 28 L80 34 L78 28 L72 26 L78 24 Z" fill="#FFFFFF"/>
-  <path d="M19 30 L20.3 34 L24 35.3 L20.3 36.6 L19 40.6 L17.7 36.6 L14 35.3 L17.7 34 Z" fill="#FFFFFF"/></g>
-<text x="198" y="147" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Discoteca</text>
-<g transform="translate(264 32)"><rect width="100" height="100" fill="#004DFF"/>
-  <path d="M36 62 C28 55 44 49 36 42 C28 35 44 29 36 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
-  <path d="M50 62 C42 55 58 49 50 42 C42 35 58 29 50 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
-  <path d="M64 62 C56 55 72 49 64 42 C56 35 72 29 64 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
-  <rect x="20" y="68" width="60" height="6" fill="#FFFFFF"/>
-  <rect x="26" y="74" width="6" height="12" fill="#FFFFFF"/>
-  <rect x="68" y="74" width="6" height="12" fill="#FFFFFF"/></g>
-<text x="314" y="147" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Sauna</text>
-<g transform="translate(380 32)"><rect width="100" height="100" fill="#008026"/>
-  <rect x="30" y="16" width="44" height="68" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <path d="M27.5 13.5 L46 20 V80 L27.5 86.5 Z" fill="#FFFFFF"/>
-  <circle cx="41" cy="52" r="1.8" fill="#008026"/>
-  <circle cx="60" cy="37" r="8" fill="#FFFFFF"/>
-  <path d="M49 84 V56 L53 50 H67.5 L71.5 56 V84 Z" fill="#FFFFFF"/></g>
-<text x="430" y="147" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Cruising</text>
-<g transform="translate(32 170)"><rect width="100" height="100" fill="#D9A400"/>
-  <circle cx="50" cy="52" r="19" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <circle cx="50" cy="52" r="10" fill="none" stroke="#FFFFFF" stroke-width="3"/>
-  <path d="M16 20 V36 H28 V20" fill="none" stroke="#FFFFFF" stroke-width="3.5"/>
-  <line x1="22" y1="20" x2="22" y2="36" stroke="#FFFFFF" stroke-width="3.5"/>
-  <rect x="19.5" y="34" width="5" height="50" fill="#FFFFFF"/>
-  <path d="M75 18 L84 28 V52 H75 Z" fill="#FFFFFF"/>
-  <rect x="75" y="50" width="5" height="34" fill="#FFFFFF"/></g>
-<text x="82" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Comer e beber</text>
-<g transform="translate(148 170)"><rect width="100" height="100" fill="#750787"/>
-  <circle cx="78" cy="30" r="8" fill="#FFFFFF"/>
-  <path d="M34 74 Q36 54 46 36" fill="none" stroke="#FFFFFF" stroke-width="5"/>
-  <path d="M46 36 Q34 24 16 32 Q32 30 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q40 18 26 16 Q38 24 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q54 20 66 18 Q56 26 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q62 34 68 50 Q58 38 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q30 38 24 52 Q34 40 46 36 Z" fill="#FFFFFF"/>
-  <path d="M14 76 Q34 66 60 74 L60 76 Z" fill="#FFFFFF"/>
-  <path d="M14 86 q6 -5 12 0 t12 0 t12 0 t12 0 t12 0 t12 0" fill="none" stroke="#FFFFFF" stroke-width="4"/></g>
-<text x="198" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Ao ar livre</text>
-<g transform="translate(264 170)"><rect width="100" height="100" fill="#B0105E"/>
-  <rect x="30" y="19.5" width="40" height="5" fill="#FFFFFF"/>
-  <rect x="24" y="11" width="7" height="22" fill="#FFFFFF"/>
-  <rect x="69" y="11" width="7" height="22" fill="#FFFFFF"/>
-  <rect x="18" y="15" width="6" height="14" fill="#FFFFFF"/>
-  <rect x="76" y="15" width="6" height="14" fill="#FFFFFF"/>
-  <path d="M26 56 V50 a8 8 0 0 1 16 0 V56" fill="none" stroke="#FFFFFF" stroke-width="4"/>
-  <path d="M18 54 H50 L52 88 H16 Z" fill="#FFFFFF"/>
-  <rect x="56" y="52" width="30" height="7" fill="#FFFFFF"/>
-  <rect x="58" y="58" width="2.4" height="18" fill="#FFFFFF"/><rect x="63" y="58" width="2.4" height="18" fill="#FFFFFF"/><rect x="68" y="58" width="2.4" height="18" fill="#FFFFFF"/><rect x="73" y="58" width="2.4" height="18" fill="#FFFFFF"/><rect x="78" y="58" width="2.4" height="18" fill="#FFFFFF"/><rect x="83" y="58" width="2.4" height="18" fill="#FFFFFF"/></g>
-<text x="314" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Estilo de vida</text>
-<g transform="translate(380 170)"><rect width="100" height="100" fill="#C2410C"/>
-  <rect x="10" y="40" width="6" height="42" fill="#FFFFFF"/>
-  <rect x="10" y="64" width="50" height="7" fill="#FFFFFF"/>
-  <rect x="54" y="71" width="6" height="11" fill="#FFFFFF"/>
-  <rect x="19" y="52" width="12" height="9" fill="#FFFFFF"/>
-  <rect x="33" y="50" width="27" height="11" fill="#FFFFFF"/>
-  <path d="M71 40 V32 H83 V40" fill="none" stroke="#FFFFFF" stroke-width="4"/>
-  <rect x="65" y="40" width="24" height="38" fill="#FFFFFF"/>
-  <line x1="72" y1="46" x2="72" y2="72" stroke="#C2410C" stroke-width="2.6"/>
-  <line x1="82" y1="46" x2="82" y2="72" stroke="#C2410C" stroke-width="2.6"/>
-  <rect x="68" y="78" width="4" height="5" fill="#FFFFFF"/>
-  <rect x="82" y="78" width="4" height="5" fill="#FFFFFF"/></g>
-<text x="430" y="285" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="600" fill="#333">Alojamento</text>
+  <path d="M80 14 Q81.76 20.24 88 22 Q81.76 23.76 80 30 Q78.24 23.76 72 22 Q78.24 20.24 80 14 Z" fill="#FFFFFF"/>
+  <path d="M20 26.5 Q21.21 30.79 25.5 32 Q21.21 33.21 20 37.5 Q18.79 33.21 14.5 32 Q18.79 30.79 20 26.5 Z" fill="#FFFFFF"/>
+  <path d="M81 75.5 Q81.99 79.01 85.5 80 Q81.99 80.99 81 84.5 Q80.01 80.99 76.5 80 Q80.01 79.01 81 75.5 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M18 72.5 Q18.77 75.23 21.5 76 Q18.77 76.77 18 79.5 Q17.23 76.77 14.5 76 Q17.23 75.23 18 72.5 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  </g></g>
+<text x="192" y="142" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Discoteca</text>
+<g transform="translate(256 28)">
+  <defs>
+    <linearGradient id="sauna-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4C8DFF"/><stop offset="1" stop-color="#1B45C9"/>
+    </linearGradient>
+    <clipPath id="sauna-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#sauna-card)">
+    <rect width="100" height="100" fill="url(#sauna-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <path d="M32 50 C25 44 39 38 32 32 C25 26 39 20 32 14" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 50 C37 44 51 38 44 32 C37 26 51 20 44 14" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M56 50 C49 44 63 38 56 32 C49 26 63 20 56 14" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 58 Q44 44 60 58" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity=".6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M25 58 H63 L59 84 H29 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="27" y1="65" x2="61" y2="65" stroke="#1B45C9" stroke-width="2.2"/>
+  <line x1="29" y1="77.5" x2="59" y2="77.5" stroke="#1B45C9" stroke-width="2.2"/>
+  <rect x="72" y="18" width="9" height="36" rx="4.5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="76.5" y1="54" x2="76.5" y2="32" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="76.5" cy="59" r="7" fill="#FFFFFF"/>
+  <path d="M66 26 H69 M66 33 H69 M66 40 H69 M66 47 H69" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g>
+<text x="306" y="142" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Sauna</text>
+<g transform="translate(370 28)">
+  <defs>
+    <linearGradient id="cruising-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2FBF6B"/><stop offset="1" stop-color="#0C6B34"/>
+    </linearGradient>
+    <clipPath id="cruising-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#cruising-card)">
+    <rect width="100" height="100" fill="url(#cruising-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <defs>
+    <mask id="cruising-moon"><rect width="100" height="100" fill="#fff"/>
+      <circle cx="28" cy="17" r="7" fill="#000"/></mask>
+    <clipPath id="cruising-gap"><rect x="42" y="24" width="34" height="60"/></clipPath>
+  </defs>
+  <circle cx="23" cy="21" r="8" fill="#FFFFFF" mask="url(#cruising-moon)"/>
+  <path d="M14 35 Q14.66 37.34 17 38 Q14.66 38.66 14 41 Q13.34 38.66 11 38 Q13.34 37.34 14 35 Z" fill="#FFFFFF" fill-opacity=".5"/><path d="M30 31.8 Q30.484 33.516 32.2 34 Q30.484 34.484 30 36.2 Q29.516 34.484 27.8 34 Q29.516 33.516 30 31.8 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M42 84 H76 L92 100 H30 Z" fill="#FFFFFF" fill-opacity=".18"/>
+  <rect x="42" y="24" width="34" height="60" fill="#000" fill-opacity=".28"/>
+  <g clip-path="url(#cruising-gap)" fill="#FFFFFF">
+    <path d="M75 34 C66 34 62 40 62 47 C62 50 60 52 58.5 54 L62 55 C62 58 63 60 66 60 L75 60 Z"/>
+    <path d="M58 84 V74 Q58 63 70 62 H80 V84 Z"/>
+  </g>
+  <path d="M42 24 L29 17 V92 L42 84 Z" fill="#FFFFFF" fill-opacity=".5" stroke="#FFFFFF" stroke-opacity=".6" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="33" cy="55" r="1.8" fill="#FFFFFF"/>
+  <rect x="42" y="24" width="34" height="60" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g>
+<text x="420" y="142" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Cruising</text>
+<g transform="translate(28 162)">
+  <defs>
+    <linearGradient id="comer-e-beber-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFC23A"/><stop offset="1" stop-color="#D98200"/>
+    </linearGradient>
+    <clipPath id="comer-e-beber-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#comer-e-beber-card)">
+    <rect width="100" height="100" fill="url(#comer-e-beber-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <circle cx="50" cy="54" r="23" fill="#FFFFFF" fill-opacity=".5"/>
+  <circle cx="50" cy="54" r="15" fill="#FFFFFF"/>
+  <path d="M34 42 A20 20 0 0 1 44 35.5" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M12 16 V29 Q12 36 18 36 Q24 36 24 29 V16" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18" y1="16" x2="18" y2="31" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="18" y1="36" x2="18" y2="84" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M79 14 C86 18 89 30 88 46 H79 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <line x1="83.5" y1="46" x2="83.5" y2="84" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g>
+<text x="78" y="276" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Comer e beber</text>
+<g transform="translate(142 162)">
+  <defs>
+    <linearGradient id="ao-ar-livre-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A259D9"/><stop offset="1" stop-color="#5A1784"/>
+    </linearGradient>
+    <clipPath id="ao-ar-livre-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#ao-ar-livre-card)">
+    <rect width="100" height="100" fill="url(#ao-ar-livre-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <circle cx="79" cy="22" r="13" fill="#FFFFFF" fill-opacity=".25"/>
+  <circle cx="79" cy="22" r="8" fill="#FFFFFF"/>
+  <path d="M16 76 Q42 60 74 76 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M36 74 Q37 52 48 35 L52 37 Q42 53 42 74 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C40 30 28 32 20 42 C30 36 40 36 50 36 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M50 36 C58 30 70 32 76 42 C68 36 58 36 50 36 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M50 36 C42 24 30 20 18 26 C30 26 40 28 50 36 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C46 22 38 14 28 12 C38 18 44 26 50 36 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C54 24 60 18 66 16 C60 22 55 28 50 36 Z" fill="#FFFFFF"/>
+  <circle cx="47.5" cy="39.5" r="2.6" fill="#FFFFFF"/><circle cx="53" cy="40" r="2.6" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M12 82 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 90 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g></g>
+<text x="192" y="276" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Ao ar livre</text>
+<g transform="translate(256 162)">
+  <defs>
+    <linearGradient id="estilo-de-vida-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#EC4F86"/><stop offset="1" stop-color="#A0104E"/>
+    </linearGradient>
+    <clipPath id="estilo-de-vida-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#estilo-de-vida-card)">
+    <rect width="100" height="100" fill="url(#estilo-de-vida-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <g opacity=".5">
+    <path d="M32 42 V36 a10 10 0 0 1 20 0 V42" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M22 42 H62 L65 86 H19 Z" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <g transform="rotate(28 71 22)">
+    <rect x="57" y="13" width="28" height="7" rx="2.5" fill="#FFFFFF"/>
+    <rect x="59.0" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="62.5" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="66.0" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="69.5" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="73.0" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="76.5" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/><rect x="80.0" y="19" width="1.9" height="12" rx=".95" fill="#FFFFFF"/>
+  </g>
+  <g transform="rotate(-25 56 66)">
+    <rect x="36" y="64" width="40" height="4.5" rx="2.2" fill="#FFFFFF"/>
+    <rect x="38" y="55" width="7" height="22" rx="2.5" fill="#FFFFFF"/>
+    <rect x="67" y="55" width="7" height="22" rx="2.5" fill="#FFFFFF"/>
+    <rect x="32.5" y="58.5" width="5" height="15" rx="2" fill="#FFFFFF"/>
+    <rect x="74.5" y="58.5" width="5" height="15" rx="2" fill="#FFFFFF"/>
+  </g>
+  </g></g>
+<text x="306" y="276" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Estilo de vida</text>
+<g transform="translate(370 162)">
+  <defs>
+    <linearGradient id="alojamento-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9A5A2A"/><stop offset="1" stop-color="#4A2A12"/>
+    </linearGradient>
+    <clipPath id="alojamento-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#alojamento-card)">
+    <rect width="100" height="100" fill="url(#alojamento-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <path d="M20 16 H28 L20 24 H28" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity=".6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M31 9 H36 L31 14 H36" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".6" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="11" y="38" width="7" height="46" rx="3" fill="#FFFFFF"/>
+  <rect x="11" y="64" width="52" height="7" rx="2.5" fill="#FFFFFF"/>
+  <rect x="56" y="69" width="6" height="15" rx="2.5" fill="#FFFFFF"/>
+  <rect x="21" y="47" width="13" height="10" rx="4" fill="#FFFFFF"/>
+  <path d="M36 50 H59 Q63 50 63 54 V62 H36 Z" fill="#FFFFFF"/>
+  <path d="M40 55 H58" fill="none" stroke="#4A2A12" stroke-width="1.6" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M71 40 V33 Q71 31 73 31 H81 Q83 31 83 33 V40" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="66" y="40" width="22" height="40" rx="4" fill="#FFFFFF"/>
+  <path d="M72.5 46 V74 M81.5 46 V74" fill="none" stroke="#4A2A12" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="70.5" cy="84" r="2.6" fill="#FFFFFF"/><circle cx="83.5" cy="84" r="2.6" fill="#FFFFFF"/>
+  </g></g>
+<text x="420" y="276" text-anchor="middle" font-family="Quicksand, Comfortaa, Helvetica, Arial, sans-serif" font-size="9" font-weight="700" fill="#4A4A4A">Alojamento</text>
 </svg>

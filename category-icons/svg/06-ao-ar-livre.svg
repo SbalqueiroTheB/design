@@ -1,12 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" shape-rendering="geometricPrecision">
-  <rect width="100" height="100" fill="#750787"/>
-  <circle cx="78" cy="30" r="8" fill="#FFFFFF"/>
-  <path d="M34 74 Q36 54 46 36" fill="none" stroke="#FFFFFF" stroke-width="5"/>
-  <path d="M46 36 Q34 24 16 32 Q32 30 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q40 18 26 16 Q38 24 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q54 20 66 18 Q56 26 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q62 34 68 50 Q58 38 46 36 Z" fill="#FFFFFF"/>
-  <path d="M46 36 Q30 38 24 52 Q34 40 46 36 Z" fill="#FFFFFF"/>
-  <path d="M14 76 Q34 66 60 74 L60 76 Z" fill="#FFFFFF"/>
-  <path d="M14 86 q6 -5 12 0 t12 0 t12 0 t12 0 t12 0 t12 0" fill="none" stroke="#FFFFFF" stroke-width="4"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="ao-ar-livre-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A259D9"/><stop offset="1" stop-color="#5A1784"/>
+    </linearGradient>
+    <clipPath id="ao-ar-livre-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#ao-ar-livre-card)">
+    <rect width="100" height="100" fill="url(#ao-ar-livre-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <circle cx="79" cy="22" r="13" fill="#FFFFFF" fill-opacity=".25"/>
+  <circle cx="79" cy="22" r="8" fill="#FFFFFF"/>
+  <path d="M16 76 Q42 60 74 76 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M36 74 Q37 52 48 35 L52 37 Q42 53 42 74 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C40 30 28 32 20 42 C30 36 40 36 50 36 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M50 36 C58 30 70 32 76 42 C68 36 58 36 50 36 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M50 36 C42 24 30 20 18 26 C30 26 40 28 50 36 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C46 22 38 14 28 12 C38 18 44 26 50 36 Z" fill="#FFFFFF"/>
+  <path d="M50 36 C54 24 60 18 66 16 C60 22 55 28 50 36 Z" fill="#FFFFFF"/>
+  <circle cx="47.5" cy="39.5" r="2.6" fill="#FFFFFF"/><circle cx="53" cy="40" r="2.6" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M12 82 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M18 90 q5 -4 10 0 t10 0 t10 0 t10 0 t10 0 t10 0 t10 0" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-opacity=".5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </svg>

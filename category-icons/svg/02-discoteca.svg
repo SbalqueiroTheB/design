@@ -1,14 +1,26 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" shape-rendering="geometricPrecision">
-  <rect width="100" height="100" fill="#FF8C00"/>
-  <defs><clipPath id="ball"><circle cx="50" cy="56" r="24"/></clipPath></defs>
-  <line x1="50" y1="12" x2="50" y2="32" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linejoin="miter" stroke-linecap="butt"/>
-  <circle cx="50" cy="56" r="24" fill="#FFFFFF"/>
-  <g clip-path="url(#ball)" stroke="#FF8C00" stroke-width="2.6">
-    <line x1="20" y1="44" x2="80" y2="44"/><line x1="20" y1="56" x2="80" y2="56"/>
-    <line x1="20" y1="68" x2="80" y2="68"/>
-    <line x1="38" y1="28" x2="38" y2="84"/><line x1="50" y1="28" x2="50" y2="84"/>
-    <line x1="62" y1="28" x2="62" y2="84"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="discoteca-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFA23D"/><stop offset="1" stop-color="#E3561A"/>
+    </linearGradient>
+    <clipPath id="discoteca-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#discoteca-card)">
+    <rect width="100" height="100" fill="url(#discoteca-bg)"/>
+    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
+          fill="#000" fill-opacity=".09"/>
+    
+  <defs><clipPath id="discoteca-ball"><circle cx="50" cy="56" r="24"/></clipPath></defs>
+  <line x1="50" y1="8" x2="50" y2="28" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="45.5" y="27" width="9" height="5" rx="1.5" fill="#FFFFFF"/>
+  <circle cx="50" cy="56" r="24" fill="#FFFFFF" fill-opacity=".5"/>
+  <g clip-path="url(#discoteca-ball)">
+    <circle cx="40" cy="46" r="21" fill="#FFFFFF"/>
+    <g fill="none" stroke="#E3561A" stroke-opacity=".75" stroke-width="1.1"><line x1="20" y1="38" x2="80" y2="38"/><line x1="20" y1="47" x2="80" y2="47"/><line x1="20" y1="56" x2="80" y2="56"/><line x1="20" y1="65" x2="80" y2="65"/><line x1="20" y1="74" x2="80" y2="74"/><ellipse cx="50" cy="56" rx="12" ry="24"/><ellipse cx="50" cy="56" rx="21" ry="24"/><line x1="50" y1="30" x2="50" y2="82"/></g>
   </g>
-  <path d="M80 18 L82 24 L88 26 L82 28 L80 34 L78 28 L72 26 L78 24 Z" fill="#FFFFFF"/>
-  <path d="M19 30 L20.3 34 L24 35.3 L20.3 36.6 L19 40.6 L17.7 36.6 L14 35.3 L17.7 34 Z" fill="#FFFFFF"/>
+  <path d="M80 14 Q81.76 20.24 88 22 Q81.76 23.76 80 30 Q78.24 23.76 72 22 Q78.24 20.24 80 14 Z" fill="#FFFFFF"/>
+  <path d="M20 26.5 Q21.21 30.79 25.5 32 Q21.21 33.21 20 37.5 Q18.79 33.21 14.5 32 Q18.79 30.79 20 26.5 Z" fill="#FFFFFF"/>
+  <path d="M81 75.5 Q81.99 79.01 85.5 80 Q81.99 80.99 81 84.5 Q80.01 80.99 76.5 80 Q80.01 79.01 81 75.5 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  <path d="M18 72.5 Q18.77 75.23 21.5 76 Q18.77 76.77 18 79.5 Q17.23 76.77 14.5 76 Q17.23 75.23 18 72.5 Z" fill="#FFFFFF" fill-opacity=".5"/>
+  </g>
 </svg>
