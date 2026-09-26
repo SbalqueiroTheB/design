@@ -1,24 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100">
   <defs>
     <linearGradient id="av-terracota-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#CF6444"/><stop offset="1" stop-color="#6E2A1C"/>
+      <stop offset="0" stop-color="#C25A3E"/><stop offset=".5" stop-color="#D8804C"/><stop offset="1" stop-color="#E8AA68"/>
     </linearGradient>
     <clipPath id="av-terracota-card"><rect width="100" height="100"/></clipPath>
   </defs>
   <g clip-path="url(#av-terracota-card)">
     <rect width="100" height="100" fill="url(#av-terracota-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#441A11"/>
-  
-  <g transform="rotate(0 50 62)">
-    <circle cx="33.0" cy="33" r="8.5" fill="#441A11"/><circle cx="71.0" cy="33" r="8.5" fill="#441A11"/>
-    <circle cx="33.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="71.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#441A11"/>
-    <ellipse cx="44.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/><ellipse cx="61.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/>
-    <path d="M45 56 C45 50 65 50 65 56 C65 63 60 67.5 55 67.5 C50 67.5 45 63 45 56 Z" fill="#FFFFFF"/>
-    <path d="M50.5 54 Q55 52.3 59.5 54 Q59 57.6 55 59.6 Q51 57.6 50.5 54 Z" fill="#441A11"/>
-    <path d="M55 59.5 V61 M51.5 61.5 Q55 64.5 58.5 61.5" fill="none" stroke="#441A11" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <defs>
+    <linearGradient id="av-terracota-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-terracota-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-terracota-bear)"/>
+  <ellipse cx="44.2" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/><ellipse cx="58.2" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-terracota-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g>
 </svg>

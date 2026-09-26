@@ -2,192 +2,266 @@
 <rect width="478" height="258" fill="#F5F2ED"/>
 <g transform="translate(24 24)">
   <defs>
-    <linearGradient id="av-brasa-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#EE5A45"/><stop offset="1" stop-color="#9A1E1E"/>
+    <linearGradient id="av-por-do-sol-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D93A4A"/><stop offset=".5" stop-color="#EE6A3C"/><stop offset="1" stop-color="#F4A340"/>
     </linearGradient>
-    <clipPath id="av-brasa-card"><rect width="100" height="100"/></clipPath>
+    <clipPath id="av-por-do-sol-card"><rect width="100" height="100"/></clipPath>
   </defs>
-  <g clip-path="url(#av-brasa-card)">
-    <rect width="100" height="100" fill="url(#av-brasa-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
+  <g clip-path="url(#av-por-do-sol-card)">
+    <rect width="100" height="100" fill="url(#av-por-do-sol-bg)"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#5F1313"/>
-  
-  <g transform="rotate(0 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#5F1313"/><circle cx="69.0" cy="33" r="8.5" fill="#5F1313"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#5F1313"/>
-    <ellipse cx="41.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/><ellipse cx="58.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#5F1313"/>
-    <path d="M50 59.5 V61 M46.5 61.5 Q50 64.5 53.5 61.5" fill="none" stroke="#5F1313" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <defs>
+    <linearGradient id="av-por-do-sol-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-por-do-sol-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-por-do-sol-bear)"/>
+  <ellipse cx="43" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/><ellipse cx="57" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-por-do-sol-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Marcos</text></g>
 <g transform="translate(134 24)">
   <defs>
-    <linearGradient id="av-laranja-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F79545"/><stop offset="1" stop-color="#B84A17"/>
-    </linearGradient>
-    <clipPath id="av-laranja-card"><rect width="100" height="100"/></clipPath>
-  </defs>
-  <g clip-path="url(#av-laranja-card)">
-    <rect width="100" height="100" fill="url(#av-laranja-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
-    
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#722E0E"/>
-  
-  <path d="M72 84 Q78 70 77 56" fill="none" stroke="#722E0E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="77" cy="52" r="7.5" fill="#722E0E"/>
-  <ellipse cx="77" cy="54" rx="3.3" ry="2.7" fill="#FFFFFF" fill-opacity=".45"/>
-  <circle cx="73" cy="48.5" r="1.5" fill="#FFFFFF" fill-opacity=".45"/><circle cx="77" cy="47" r="1.5" fill="#FFFFFF" fill-opacity=".45"/>
-  <circle cx="81" cy="48.5" r="1.5" fill="#FFFFFF" fill-opacity=".45"/>
-  <path d="M86 44 Q89.5 50 86 56 M89.5 40 Q95 50 89.5 60" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round"/>
-  <g transform="rotate(-6 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#722E0E"/><circle cx="69.0" cy="33" r="8.5" fill="#722E0E"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#722E0E"/>
-    <ellipse cx="41.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/><ellipse cx="58.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#722E0E"/>
-    <path d="M50 59.5 V61" fill="none" stroke="#722E0E" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 61.2 Q50 68 54 61.2 Z" fill="#722E0E"/></g>
-  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Rafa</text></g>
-<g transform="translate(244 24)">
-  <defs>
     <linearGradient id="av-ambar-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F4B846"/><stop offset="1" stop-color="#B26A0C"/>
+      <stop offset="0" stop-color="#F07A2E"/><stop offset=".5" stop-color="#F5A23A"/><stop offset="1" stop-color="#F8CB4A"/>
     </linearGradient>
     <clipPath id="av-ambar-card"><rect width="100" height="100"/></clipPath>
   </defs>
   <g clip-path="url(#av-ambar-card)">
     <rect width="100" height="100" fill="url(#av-ambar-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#6E4207"/>
-  
-  <g transform="rotate(5 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#6E4207"/><circle cx="69.0" cy="33" r="8.5" fill="#6E4207"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#6E4207"/>
-    <ellipse cx="41.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/><path d="M55.5 47.5 Q58.5 44.5 61.5 47.5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#6E4207"/>
-    <path d="M50 59.5 V61 M46.5 61.5 Q50 64.5 53.5 61.5" fill="none" stroke="#6E4207" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <defs>
+    <linearGradient id="av-ambar-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-ambar-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-ambar-bear)"/>
+  <ellipse cx="43" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/><path d="M54.6 47.9 Q57 45.5 59.4 47.9" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-ambar-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
+  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Rafa</text></g>
+<g transform="translate(244 24)">
+  <defs>
+    <linearGradient id="av-brasa-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C2303A"/><stop offset=".5" stop-color="#DC4E32"/><stop offset="1" stop-color="#EE7E38"/>
+    </linearGradient>
+    <clipPath id="av-brasa-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#av-brasa-card)">
+    <rect width="100" height="100" fill="url(#av-brasa-bg)"/>
+    
+  <defs>
+    <linearGradient id="av-brasa-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-brasa-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-brasa-bear)"/>
+  <path d="M40.6 48.3 Q43 45.3 45.4 48.3" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M54.6 48.3 Q57 45.3 59.4 48.3" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-brasa-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Tiago</text></g>
 <g transform="translate(354 24)">
   <defs>
     <linearGradient id="av-mel-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#D8A150"/><stop offset="1" stop-color="#87521A"/>
+      <stop offset="0" stop-color="#E39440"/><stop offset=".5" stop-color="#EDB34E"/><stop offset="1" stop-color="#F3D06E"/>
     </linearGradient>
     <clipPath id="av-mel-card"><rect width="100" height="100"/></clipPath>
   </defs>
   <g clip-path="url(#av-mel-card)">
     <rect width="100" height="100" fill="url(#av-mel-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#543310"/>
-  
-  <g transform="rotate(-14 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#543310"/><circle cx="69.0" cy="33" r="8.5" fill="#543310"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#543310"/>
-    <ellipse cx="41.5" cy="46.5" rx="2.3" ry="3" fill="#FFFFFF"/><ellipse cx="58.5" cy="46.5" rx="2.3" ry="3" fill="#FFFFFF"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#543310"/>
-    <path d="M50 59.5 V61 M47.5 62 H52.5" fill="none" stroke="#543310" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <defs>
+    <linearGradient id="av-mel-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-mel-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-mel-bear)"/>
+  <ellipse cx="41.8" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/><ellipse cx="55.8" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-mel-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Beto</text></g>
 <g transform="translate(24 134)">
   <defs>
-    <linearGradient id="av-urso-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#A86A3E"/><stop offset="1" stop-color="#4E2C16"/>
-    </linearGradient>
-    <clipPath id="av-urso-card"><rect width="100" height="100"/></clipPath>
-  </defs>
-  <g clip-path="url(#av-urso-card)">
-    <rect width="100" height="100" fill="url(#av-urso-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
-    
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#301B0E"/>
-  
-  <g transform="rotate(8 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#301B0E"/><circle cx="69.0" cy="33" r="8.5" fill="#301B0E"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#301B0E"/>
-    <path d="M38.5 46.5 Q41.5 49.5 44.5 46.5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M55.5 46.5 Q58.5 49.5 61.5 46.5" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#301B0E"/>
-    <path d="M50 59.5 V61 M47.5 62 H52.5" fill="none" stroke="#301B0E" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g><path d="M77 16 H85 L77 24 H85" fill="none" stroke="#FFFFFF" stroke-width="2.5" stroke-opacity=".65" stroke-linecap="round" stroke-linejoin="round"/><path d="M88 7 H93 L88 12 H93" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-opacity=".55" stroke-linecap="round" stroke-linejoin="round"/>
-  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Urso_SP</text></g>
-<g transform="translate(134 134)">
-  <defs>
-    <linearGradient id="av-terracota-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#CF6444"/><stop offset="1" stop-color="#6E2A1C"/>
-    </linearGradient>
-    <clipPath id="av-terracota-card"><rect width="100" height="100"/></clipPath>
-  </defs>
-  <g clip-path="url(#av-terracota-card)">
-    <rect width="100" height="100" fill="url(#av-terracota-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
-    
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#441A11"/>
-  
-  <g transform="rotate(0 50 62)">
-    <circle cx="33.0" cy="33" r="8.5" fill="#441A11"/><circle cx="71.0" cy="33" r="8.5" fill="#441A11"/>
-    <circle cx="33.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="71.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#441A11"/>
-    <ellipse cx="44.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/><ellipse cx="61.5" cy="47" rx="1.6" ry="2.3" fill="#FFFFFF"/>
-    <path d="M45 56 C45 50 65 50 65 56 C65 63 60 67.5 55 67.5 C50 67.5 45 63 45 56 Z" fill="#FFFFFF"/>
-    <path d="M50.5 54 Q55 52.3 59.5 54 Q59 57.6 55 59.6 Q51 57.6 50.5 54 Z" fill="#441A11"/>
-    <path d="M55 59.5 V61 M51.5 61.5 Q55 64.5 58.5 61.5" fill="none" stroke="#441A11" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></g>
-  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Caio</text></g>
-<g transform="translate(244 134)">
-  <defs>
     <linearGradient id="av-vinho-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#B8475A"/><stop offset="1" stop-color="#5A1A29"/>
+      <stop offset="0" stop-color="#B23A5A"/><stop offset=".5" stop-color="#CF4E55"/><stop offset="1" stop-color="#EA7C5C"/>
     </linearGradient>
     <clipPath id="av-vinho-card"><rect width="100" height="100"/></clipPath>
   </defs>
   <g clip-path="url(#av-vinho-card)">
     <rect width="100" height="100" fill="url(#av-vinho-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#381019"/>
-  
-  <g transform="rotate(0 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#381019"/><circle cx="69.0" cy="33" r="8.5" fill="#381019"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#381019"/>
-    <path d="M38.5 48 Q41.5 44 44.5 48" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M55.5 48 Q58.5 44 61.5 48" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#381019"/>
-    <path d="M50 59.5 V61" fill="none" stroke="#381019" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M46 61.2 Q50 68 54 61.2 Z" fill="#381019"/></g><path transform="translate(5 -6)" d="M78 30 C74 26 74 21 78 21 C80 21 80.5 23 80.5 23 C80.5 23 81 21 83 21 C87 21 87 26 83 30 L80.5 32.5 Z" fill="#FFFFFF" fill-opacity=".7"/>
+  <defs>
+    <linearGradient id="av-vinho-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-vinho-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-vinho-bear)"/>
+  <path d="M40.6 47.1 Q43 49.3 45.4 47.1" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M54.6 47.1 Q57 49.3 59.4 47.1" fill="none" stroke="#FFFFFF" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-vinho-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
+  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Urso_SP</text></g>
+<g transform="translate(134 134)">
+  <defs>
+    <linearGradient id="av-terracota-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#C25A3E"/><stop offset=".5" stop-color="#D8804C"/><stop offset="1" stop-color="#E8AA68"/>
+    </linearGradient>
+    <clipPath id="av-terracota-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#av-terracota-card)">
+    <rect width="100" height="100" fill="url(#av-terracota-bg)"/>
+    
+  <defs>
+    <linearGradient id="av-terracota-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-terracota-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-terracota-bear)"/>
+  <ellipse cx="44.2" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/><ellipse cx="58.2" cy="47.5" rx="1.35" ry="2.1" fill="#FFFFFF"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-terracota-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
+  </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Caio</text></g>
+<g transform="translate(244 134)">
+  <defs>
+    <linearGradient id="av-rosa-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DE4A72"/><stop offset=".5" stop-color="#EF716A"/><stop offset="1" stop-color="#F5A26C"/>
+    </linearGradient>
+    <clipPath id="av-rosa-card"><rect width="100" height="100"/></clipPath>
+  </defs>
+  <g clip-path="url(#av-rosa-card)">
+    <rect width="100" height="100" fill="url(#av-rosa-bg)"/>
+    
+  <defs>
+    <linearGradient id="av-rosa-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-rosa-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-rosa-bear)"/>
+  <ellipse cx="43" cy="47.2" rx="1.8" ry="2.6" fill="#FFFFFF"/><ellipse cx="57" cy="47.2" rx="1.8" ry="2.6" fill="#FFFFFF"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-rosa-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Léo</text></g>
 <g transform="translate(354 134)">
   <defs>
-    <linearGradient id="av-grafite-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7A6A60"/><stop offset="1" stop-color="#2E2724"/>
+    <linearGradient id="av-crepusculo-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8C4A74"/><stop offset=".5" stop-color="#B9505A"/><stop offset="1" stop-color="#E88E52"/>
     </linearGradient>
-    <clipPath id="av-grafite-card"><rect width="100" height="100"/></clipPath>
+    <clipPath id="av-crepusculo-card"><rect width="100" height="100"/></clipPath>
   </defs>
-  <g clip-path="url(#av-grafite-card)">
-    <rect width="100" height="100" fill="url(#av-grafite-bg)"/>
-    <path d="M6 0 C4 12 10 20 20 26 C14 16 18 8 26 0 Z M66 0 C62 10 68 18 80 24 C74 14 78 6 86 0 Z"
-          fill="#000" fill-opacity=".1"/>
+  <g clip-path="url(#av-crepusculo-card)">
+    <rect width="100" height="100" fill="url(#av-crepusculo-bg)"/>
     
-  <path d="M14 100 V89 Q14 71 50 69 Q86 71 86 89 V100 Z" fill="#1D1816"/>
-  
-  <g transform="rotate(4 50 62)">
-    <circle cx="31.0" cy="33" r="8.5" fill="#1D1816"/><circle cx="69.0" cy="33" r="8.5" fill="#1D1816"/>
-    <circle cx="31.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/><circle cx="69.0" cy="33" r="4.3" fill="#FFFFFF" fill-opacity=".3"/>
-    <ellipse cx="50" cy="50" rx="22.5" ry="20.5" fill="#1D1816"/>
-    <ellipse cx="41.5" cy="46.5" rx="2.3" ry="3" fill="#FFFFFF"/><ellipse cx="58.5" cy="46.5" rx="2.3" ry="3" fill="#FFFFFF"/>
-    <path d="M40 56 C40 50 60 50 60 56 C60 63 55 67.5 50 67.5 C45 67.5 40 63 40 56 Z" fill="#FFFFFF"/>
-    <path d="M45.5 54 Q50 52.3 54.5 54 Q54 57.6 50 59.6 Q46 57.6 45.5 54 Z" fill="#1D1816"/>
-    <path d="M50 59.5 V61" fill="none" stroke="#1D1816" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="50" cy="63.2" rx="1.8" ry="2.2" fill="#1D1816"/></g><path d="M86 14 L87.4 18.6 L92 20 L87.4 21.4 L86 26 L84.6 21.4 L80 20 L84.6 18.6 Z" fill="#FFFFFF" fill-opacity=".7"/>
+  <defs>
+    <linearGradient id="av-crepusculo-bear" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#B24A1C"/><stop offset=".45" stop-color="#7E4A2C"/>
+      <stop offset="1" stop-color="#4A4745"/>
+    </linearGradient>
+    <linearGradient id="av-crepusculo-muz" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#CFCFD1"/>
+    </linearGradient>
+  </defs>
+  <g fill="#3A2217" fill-opacity=".34">
+    <path d="M28 90 C8 66 8 32 28 8 C26 22 31 30 35 38 C32 50 30 70 29 90 Z"/>
+    <path d="M47 34 C47 20 56 8 70 0 C66 12 69 20 67 34 Z"/>
+    <path d="M73 84 C70 58 80 36 97 26 C90 38 85 56 77 86 Z"/>
+  </g>
+  <circle cx="30.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <circle cx="69.5" cy="35" r="7.5" fill="#B24A1C"/>
+  <path d="M24 100 C25.5 82 27.5 66 28.5 53 C29 41 32 35 40 33.5 H60 C68 35 71 41 71.5 53 C72.5 66 74.5 82 76 100 Z"
+        fill="url(#av-crepusculo-bear)"/>
+  <path d="M41 47.5 H45" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M55 47.5 H59" fill="none" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41.5 58 C41.5 52.5 45 50.5 50 50.5 C55 50.5 58.5 52.5 58.5 58 V63.5 C58.5 67.5 55.5 70 50 70 C44.5 70 41.5 67.5 41.5 63.5 Z"
+        fill="url(#av-crepusculo-muz)"/>
+  <path d="M45.6 56.2 Q50 54.3 54.4 56.2 Q54.6 59.4 50 62 Q45.4 59.4 45.6 56.2 Z" fill="#2E2B2A"/>
   </g><rect x="4" y="83" width="92" height="13" fill="#3A3634" fill-opacity=".82"/><text x="8" y="92.3" font-family="Quicksand, Helvetica, Arial, sans-serif" font-size="7.5" font-weight="700" fill="#FFFFFF">Dudu</text></g>
 </svg>

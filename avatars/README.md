@@ -3,31 +3,38 @@
 8 avatares para quem ainda **não cadastrou foto**. Ninguém é punido por não ter
 foto: em vez do quadrado cinza, cada pessoa ganha o urso do bear2me.
 
-A composição é a da própria logo: **urso escuro, focinho branco, chamas escuras
-atrás e gradiente quente**. Também segue as regras dos ícones de categoria
-(cantos retos, chamas translúcidas, detalhes em branco translúcido), mas com a
-paleta quente da logo, para não confundir avatar com categoria.
+O urso é o **da logo**: silhueta cabeça+corpo, gradiente marrom → cinza,
+focinho claro, nariz escuro e chamas escuras atrás. Variam só a cor do fundo e,
+de leve, os olhos.
 
-| # | Pose | Topo | Base |
-|---|------|------|------|
-| 1 | De frente | `#EE5A45` | `#9A1E1E` |
-| 2 | Acenando | `#F79545` | `#B84A17` |
-| 3 | Piscando | `#F4B846` | `#B26A0C` |
-| 4 | Curioso (cabeça inclinada) | `#D8A150` | `#87521A` |
-| 5 | Dormindo | `#A86A3E` | `#4E2C16` |
-| 6 | Olhando pro lado | `#CF6444` | `#6E2A1C` |
-| 7 | Feliz | `#B8475A` | `#5A1A29` |
-| 8 | Surpreso | `#7A6A60` | `#2E2724` |
+| # | Fundo | Olhos | Gradiente (topo → meio → base) |
+|---|-------|-------|--------------------------------|
+| 1 | Pôr do sol | Olhar da logo | `#D93A4A` → `#EE6A3C` → `#F4A340` |
+| 2 | Âmbar | Piscando | `#F07A2E` → `#F5A23A` → `#F8CB4A` |
+| 3 | Brasa | Feliz | `#C2303A` → `#DC4E32` → `#EE7E38` |
+| 4 | Mel | Olhando à esquerda | `#E39440` → `#EDB34E` → `#F3D06E` |
+| 5 | Vinho | Dormindo | `#B23A5A` → `#CF4E55` → `#EA7C5C` |
+| 6 | Terracota | Olhando à direita | `#C25A3E` → `#D8804C` → `#E8AA68` |
+| 7 | Rosa | Curioso | `#DE4A72` → `#EF716A` → `#F5A26C` |
+| 8 | Crepúsculo | Sereno | `#8C4A74` → `#B9505A` → `#E88E52` |
 
-O urso é sempre um tom abaixo da cor da base do fundo, para destacar sem brigar.
+## Proteção da logo
+
+O avatar é **parente** da logo, nunca a logo. Se fosse idêntico, todo perfil sem
+foto pareceria a conta oficial da bear2me, o que confunde o usuário, abre espaço
+para perfis falsos e dilui a marca. Por isso:
+
+- **Formato:** quadrado com cantos retos. O círculo com borda é exclusivo da logo.
+- **Fundo:** nenhum dos 8 gradientes é o vermelho → amarelo oficial.
+- **Olhos:** variam de leve em 7 dos 8.
+- **Regra para o app:** a logo oficial nunca é usada como avatar de usuário.
 
 ## Por que ursos e não pessoas
 
 - **Neutro.** O avatar representa a comunidade, não a pessoa. Ninguém recebe
   corpo, rosto, idade ou etnia por sorteio.
 - **Claramente um mascote.** Ninguém confunde com a foto real do usuário.
-- **Mesmo urso em todos.** Mudam só a pose e a expressão, sem acessório humano.
-- **Base livre para o nome.** O urso fica acima da faixa do nome que o app
+- **Base livre para o nome.** O rosto fica acima da faixa do nome que o app
   sobrepõe no card.
 
 ## Como o app escolhe o avatar (fixo pelo ID)
@@ -47,8 +54,8 @@ export function avatarIndex(userId: string, total = 8): number {
 }
 
 const AVATARS = [
-  "01-brasa", "02-laranja", "03-ambar", "04-mel",
-  "05-urso", "06-terracota", "07-vinho", "08-grafite",
+  "01-por-do-sol", "02-ambar", "03-brasa", "04-mel",
+  "05-vinho", "06-terracota", "07-rosa", "08-crepusculo",
 ];
 
 export const defaultAvatar = (userId: string) =>
