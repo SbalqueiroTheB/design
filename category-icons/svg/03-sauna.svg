@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 100 100" shape-rendering="geometricPrecision">
+  <rect width="100" height="100" fill="#004DFF"/>
+  <path d="M36 62 C28 55 44 49 36 42 C28 35 44 29 36 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+  <path d="M50 62 C42 55 58 49 50 42 C42 35 58 29 50 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+  <path d="M64 62 C56 55 72 49 64 42 C56 35 72 29 64 22" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="butt"/>
+  <rect x="20" y="68" width="60" height="6" fill="#FFFFFF"/>
+  <rect x="26" y="74" width="6" height="12" fill="#FFFFFF"/>
+  <rect x="68" y="74" width="6" height="12" fill="#FFFFFF"/>
+</svg>
