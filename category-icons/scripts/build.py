@@ -178,19 +178,36 @@ def alojamento(c):
   <circle cx="70.5" cy="84" r="2.6" fill="{W}"/><circle cx="83.5" cy="84" r="2.6" fill="{W}"/>'''
 
 
+def todos(c):
+    """Estado sem filtro: grade 2x2 (símbolo universal de 'ver tudo')."""
+    return f'''
+  <rect x="25" y="25" width="22" height="22" fill="{W}"/>
+  <rect x="53" y="25" width="22" height="22" {H}/>
+  <rect x="25" y="53" width="22" height="22" {H}/>
+  <rect x="53" y="53" width="22" height="22" fill="{W}"/>'''
+
+
+# Paradas do gradiente do "Todos": arco-íris do orgulho em tons profundos
+TODOS_STOPS = ["#E4312B", "#F07A26", "#E9A800", "#1FA055", "#2F6FE0", "#7B2FB0"]
+
 DRAW = {
     "bares": bares, "discoteca": discoteca, "sauna": sauna, "cruising": cruising,
     "comer-e-beber": comer_e_beber, "ao-ar-livre": ao_ar_livre,
-    "estilo-de-vida": estilo_de_vida, "alojamento": alojamento,
+    "estilo-de-vida": estilo_de_vida, "alojamento": alojamento, "todos": todos,
 }
 
 
 def tile(slug, top, bottom):
-    """Fundo (gradiente + chamas da marca) + pictograma, dentro de um clip com o raio do card."""
+    """Fundo (gradiente + chamas da marca) + pictograma, dentro do card de cantos retos."""
+    if slug == "todos":
+        n = len(TODOS_STOPS) - 1
+        stops = "".join(f'<stop offset="{i/n:.2f}" stop-color="{c}"/>' for i, c in enumerate(TODOS_STOPS))
+    else:
+        stops = f'<stop offset="0" stop-color="{top}"/><stop offset="1" stop-color="{bottom}"/>'
     return f'''
   <defs>
     <linearGradient id="{slug}-bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="{top}"/><stop offset="1" stop-color="{bottom}"/>
+      {stops}
     </linearGradient>
     <clipPath id="{slug}-card"><rect width="100" height="100"/></clipPath>
   </defs>
@@ -228,5 +245,6 @@ def grid_svg():
 if __name__ == "__main__":
     for i, (slug, _, top, bottom) in enumerate(ICONS, 1):
         (OUT / "svg" / f"{i:02d}-{slug}.svg").write_text(icon_svg(slug, top, bottom))
+    (OUT / "svg" / "00-todos.svg").write_text(icon_svg("todos", TODOS_STOPS[0], TODOS_STOPS[-1]))
     (OUT / "grid.svg").write_text(grid_svg())
     print("ok")

@@ -10,6 +10,7 @@ sobre gradiente vertical. Linguagem tirada da identidade bear2me:
 
 | # | Categoria | Topo | Base | Arquivo |
 |---|-----------|------|------|---------|
+| 0 | **Todos** (sem filtro) | arco-íris | `#E4312B` → `#F07A26` → `#E9A800` → `#1FA055` → `#2F6FE0` → `#7B2FB0` | `svg/00-todos.svg` |
 | 1 | Bares | `#F2493F` | `#B5121B` | `svg/01-bares.svg` |
 | 2 | Discoteca | `#FFA23D` | `#E3561A` | `svg/02-discoteca.svg` |
 | 3 | Sauna | `#4C8DFF` | `#1B45C9` | `svg/03-sauna.svg` |
@@ -18,6 +19,21 @@ sobre gradiente vertical. Linguagem tirada da identidade bear2me:
 | 6 | Ao ar livre | `#A259D9` | `#5A1784` | `svg/06-ao-ar-livre.svg` |
 | 7 | Estilo de vida | `#EC4F86` | `#A0104E` | `svg/07-estilo-de-vida.svg` |
 | 8 | Alojamento | `#9A5A2A` | `#4A2A12` | `svg/08-alojamento.svg` |
+
+## Ícone "Todos" e regra do filtro
+
+O "Todos" representa o estado **sem filtro**. Fundo com o arco-íris do orgulho
+(contém as cores de todas as categorias) e grade 2×2, o símbolo universal de "ver tudo".
+
+Comportamento no filtro:
+
+1. Ao abrir, **Todos** vem marcado (nenhum filtro aplicado).
+2. Marcar qualquer categoria **desmarca Todos**.
+3. Desmarcar a última categoria marcada **volta para Todos** (a lista nunca fica vazia).
+4. Tocar em **Todos** limpa todas as categorias.
+5. "Limpar filtros" equivale a tocar em Todos.
+
+Na grade do filtro, use 3 colunas (Todos + 8 = 3×3).
 
 - `svg/`: fonte vetorial (viewBox 100×100, exporta em 512px)
 - `png/`: 512×512
